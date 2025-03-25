@@ -16,5 +16,8 @@
     "url": "https://github.com/vmqxdv/node-hello-world/issues"
   },
   "homepage": "https://github.com/vmqxdv/node-hello-world#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
