@@ -1,4 +1,6 @@
 const args = process.argv;
 process.argv.splice(0, 2);
 
-console.log(args);
+const toLog = args.length < 1 ? 'Hello Boolean' : args.join(' ');  
+
+console.log(toLog);
